@@ -1,0 +1,61 @@
+/* -----------006 - Pro Rounded Alternate------------*/
+/* Cygnito Mono Pro - Rounded Alternate - Light - 006 */
+@font-face {
+    font-family: 'CygnitoMono-006';
+    src: url('./Assets/Cygnito\ Mono\ Pro\ -\ Light\ Rounded\ Alternate.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* ----------011 - Pro Stencil Semi Rounded----------*/
+/* Cygnito Mono Pro - Stencil Semi Rounded - Light - 011 */
+@font-face {
+    font-family: 'CygnitoMono-011';
+    src: url('./Assets/Cygnito Mono Pro - Light Stencil Semi Rounded.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Cygnito Mono Pro - Stencil Semi Rounded - Bold - 011 */
+@font-face {
+    font-family: 'CygnitoMono-011';
+    src: url('./Assets/Cygnito Mono Pro - Bold Stencil Semi Rounded.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+p {
+    color: #e2e2e2;
+    font-family: CygnitoMono-011;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-size-adjust: auto;
+    font-size: 1.6vw;
+}
+
+h1 {
+    font-family: CygnitoMono-006;
+    color: #e2e2e2;
+    font-size: 9vw;
+    font-weight: 300;
+    margin: 0;
+}
+
+h2 {
+    font-family: CygnitoMono-006;
+    color: #e2e2e2;
+    font-size: 4vw;
+    font-weight: 700;
+}
